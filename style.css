@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kite+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  min-height: 100vh;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-family: 'Kite One', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* Image Container */
+.img-container {
+  margin: 10px 30%;
+}
+
+.img-container img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Photo Info */
+.data-container {
+  margin: 1.2rem 0;
+}
+
+.author {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0.5rem;
+  
+}
+
+.author-link {
+  color: black;
+  text-decoration: none;
+}
+
+.author-link:hover {
+  opacity: 0.2;
+  background-color: red;
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Media Query for Large Smartphones */
+@media screen and (max-width: 600px) {
+  .img-container {
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
